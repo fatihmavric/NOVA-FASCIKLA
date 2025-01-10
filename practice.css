@@ -1,0 +1,60 @@
+
+.zaglavlje { 
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: column;         
+    align-items: center;            
+    padding: 20px;
+}      
+
+
+
+.naslov-1 {
+    text-align: center;            
+}
+
+
+.nav {
+    align-self: flex-end;           
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;                  
+}
+
+.nav li {
+    margin-left: 20px;              
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+
+.about {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 3px ;
+    margin-right: 3px;
+    gap: 1px;
+}
+
+
+
+
+ 

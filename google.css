@@ -1,0 +1,32 @@
+.prvi {
+    color: rgb(240, 62, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+ 
+
+.drugi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 5px;
+    
+}
+    
+input {
+    display: flex;
+   width: 300px;
+   height: 30px;
+} 
+h4{
+    padding-left: 3px;
+
+}
+button {
+   
+
+{}

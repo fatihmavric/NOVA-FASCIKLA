@@ -1,0 +1,38 @@
+* {color: black;}
+.Con1 {
+     background-color: rgb(14, 14, 78);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+
+}
+
+a:link {text-decoration: none;}
+
+.con-nav {
+    
+    background-color: azure;
+    font-size: large;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 7vh;
+    font-size: 5vh;
+    
+   
+}
+
+    
+h1 {color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 8vh;
+}
+ h2 { color: white;
+font-size: 3vh;
+font-family: 'Times New Roman', Times, serif;
+}
+
+{}

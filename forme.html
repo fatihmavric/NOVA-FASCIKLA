@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        Korisnicko ime <input type="text" name="username" placeholder="unesite korisnicko ime" required> <br/> <br>
+        Email <input type="text" name="Email" placeholder="unesite email" required> <br> <br>
+        Password <input type="password" name="password" placeholder="unesite pass"required> <br>
+        <p> Izaberite pol: </p>
+        <input type="radio" value="Musko" name="Pol"> Musko
+        <input type="radio" value="Zensko" name="Pol"> Zensko <br> <br> 
+       Unesite broj telefona <input type="tel" placeholder="unesite broj telefona" name="Broj telefona"> <br> <br>
+       Unesite datum rodjenja <input type="date" name="datum rodjenja"> <br> <br>
+         
+        <label for="Questions">Odaberite pitanje:</label>
+        <select name="Questions" id="Questions">
+            <option value="Q1"> Koja je tvoja omiljena boja</option>
+            <option value="Q2"> Koji je tvoj omiljeni programski jezik</option>
+            <option value="Q3"> Koji je tvoj omiljeni auto</option> 
+            <option value="Q3"> Koliko imas godina</option> <br>
+
+            <label for="Answer"> Odgovor </label> 
+            <input type="text" name="Odgovor" id="Answer" placeholder="unesite odgovor"> <br> <br>
+
+            <label for="biografija">Tvoja biografija</label> <br>
+            <textarea name="biografija" id="biografija" cols="50" rows="10" placeholder="o tebi..."></textarea> <br> <br>
+
+
+            <input type="submit" onclick="alert('Uspesno ste poslali svoje informacije')" value="Potvrdite"> 
+        </select>
+       
+
+    </form>
+</body>
+</html>

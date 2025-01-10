@@ -1,0 +1,16 @@
+.Box  {background-color: lightsalmon;
+border: 1px solid black;
+margin: 20px;
+padding: 10px;
+}
+
+.container {background-color: aqua;
+display: flex;
+height: 100vh;
+flex-direction: row;
+flex-wrap: wrap;
+flex-flow: wrap;
+justify-content: center;
+align-items: center;
+
+}

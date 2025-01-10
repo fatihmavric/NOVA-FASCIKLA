@@ -1,0 +1,34 @@
+{}
+body {
+
+    background-color: rgb(93, 93, 143);
+}
+h1 { display: flex;
+justify-content: center;
+}
+
+.container {
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.CardCon {
+     display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.Card {background-color: rgb(32, 226, 32);
+padding: 2rem 1rem;
+}
+
+
+
